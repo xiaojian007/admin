@@ -146,5 +146,11 @@ export default {
     close: '关闭',
     closeOthers: '关闭其它',
     closeAll: '关闭所有'
+  },
+  homePage: {
+    visit: '新访问量',
+    messages: '信息',
+    purchases: '收入',
+    shoppings: '商品'
   }
 }

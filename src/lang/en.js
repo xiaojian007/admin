@@ -146,5 +146,11 @@ export default {
     close: 'Close',
     closeOthers: 'Close Others',
     closeAll: 'Close All'
+  },
+  homePage: {
+    visit: 'New Visits',
+    messages: 'Messages',
+    purchases: 'Purchases',
+    shoppings: 'Shoppings'
   }
 }

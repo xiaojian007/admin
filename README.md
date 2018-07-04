@@ -60,7 +60,7 @@
 - Markdown2html
 
 # 克隆项目
-git clone https://github.com/PanJiaChen/vue-element-admin.git
+git clone git@github.com:xiaojian007/admin.git
 
 # 安装依赖
 npm install

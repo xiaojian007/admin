@@ -92,11 +92,13 @@ export default {
       }
     },
     handleLogin() {
+      var _this = this
       this.$refs.loginForm.validate(valid => {
         if (valid) {
           this.loading = true
           this.$store.dispatch('LoginByUsername', this.loginForm).then(() => {
             this.loading = false
+            console.log(_this.loginForm)
             this.$router.push({ path: '/' })
           }).catch(() => {
             this.loading = false

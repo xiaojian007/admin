@@ -18,7 +18,8 @@ export default {
         { title: '实战篇', href: 'https://segmentfault.com/a/1190000009762198' },
         { title: 'vueAdmin-template 篇', href: 'https://segmentfault.com/a/1190000010043013' },
         { title: '自行封装 component', href: 'https://segmentfault.com/a/1190000009090836' },
-        { title: '优雅的使用 icon', href: 'https://segmentfault.com/a/1190000012213278' }
+        { title: '优雅的使用 icon', href: 'https://segmentfault.com/a/1190000012213278' },
+        { title: '啊包括打开附件', href: 'https://segmentfault.com/a/1190000012213278' }
       ]
     }
   }
@@ -32,7 +33,6 @@ export default {
     float: left;
     margin-left: 50px;
     vertical-align: middle;
-    display: block;
     cursor: pointer;
     background: black;
     color: white;

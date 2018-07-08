@@ -24,7 +24,8 @@ import { fetchList } from '@/api/transaction'
 export default {
   data() {
     return {
-      list: null
+      list: null,
+      addd: 'aaaa'
     }
   },
   filters: {

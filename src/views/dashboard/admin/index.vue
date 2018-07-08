@@ -1,9 +1,12 @@
 <template>
   <div class="dashboard-editor-container">
+    <!-- 头部流量数字 -->
     <panel-group @handleSetLineChartData="handleSetLineChartData"></panel-group>
+    <!-- 线性图表 -->
     <el-row style="background:#fff;padding:16px 16px 0;margin-bottom:32px;">
       <line-chart :chart-data="lineChartData"></line-chart>
     </el-row>
+    <!-- 中间三图表 -->
     <el-row :gutter="32">
       <el-col :xs="24" :sm="24" :lg="8">
         <div class="chart-wrapper">
@@ -22,12 +25,15 @@
       </el-col>
     </el-row>
     <el-row :gutter="8">
+      <!-- 左table表格 -->
       <el-col :xs="{span: 24}" :sm="{span: 24}" :md="{span: 24}" :lg="{span: 12}" :xl="{span: 12}" style="padding-right:8px;margin-bottom:30px;">
         <transaction-table></transaction-table>
       </el-col>
+      <!-- 中间todo list -->
       <el-col :xs="{span: 24}" :sm="{span: 12}" :md="{span: 12}" :lg="{span: 6}" :xl="{span: 5}" style="margin-bottom:30px;">
         <todo-list></todo-list>
       </el-col>
+      <!-- 右卡片列表 -->
       <el-col :xs="{span: 24}" :sm="{span: 12}" :md="{span: 12}" :lg="{span: 6}" :xl="{span: 5}" style="margin-bottom:30px;">
         <box-card></box-card>
       </el-col>
